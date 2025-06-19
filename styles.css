@@ -15,6 +15,7 @@ h3{
 .encabezado {
     background-color: #84AE92;
     padding: 20px;
+    margin: 30px;
     text-align: center;
     border-radius: 20px;
     
@@ -22,6 +23,7 @@ h3{
 #inicio{
     background-color: #B9D4AA;
     border-radius: 10px;
+  
 }
 
 #inicio>ul{
@@ -44,9 +46,14 @@ h3{
 a:hover{
     font-size: 20px;
     color: #5A827E;
+    
 }
 .imagen{
     text-align: center;
+    
+}
+img{
+    width: 300px;
 }
 a{
     text-decoration: none;
@@ -55,15 +62,17 @@ a{
 .container  {
     background-color: rgba(226, 159, 58, 0.774);
     padding: 20px ;
-    margin: 15px 15px;
+    margin: 2% 6%;
     border-style: solid;
     border-radius: 10px;
+    width: 80%;
+
+    
 }
-ol{
-    margin: 0;
-    padding: 0;
+ ul{
+    
     list-style:none;
-}
+} 
 
 @media screen and (max-width: 768px) {
 
@@ -83,10 +92,25 @@ ol{
   #inicio > ul > li {
     width: 40%;
     text-align: center;
+    
   }
 
   .container {
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    
+    margin: 20px;
   }
+  li{
+    margin: 20px;
+    list-style:none;
+}
+ul{
+    padding: 10px;
+    margin: 16px;
+}
+img{
+    width: 400px;
+    
+}
+
 }
